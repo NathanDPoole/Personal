@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+var u = document.getElementByID("user").val();
+var p = document.getElementByID("pass").val();
+
+var para = document.getElementByID("newParagraph");
+
+function changeParagraph(){
+	para.innerHTML = "<p> user"+ u + "is logged </p>";
+}
+
+function mouseHoverDOM(){
+	document.getElementByID("MidifiedbyJS").innerHTML = "Did it Work????";
+}
+
+function mouseOutDOM(){
+	document.getElementByID("MidifiedbyJS").innerHTML = "What was the original";
+}

@@ -1,0 +1,10 @@
+package com.revature.parts;
+
+public class Engine extends CarPart {
+
+public int cylinders;
+	
+	public void function() {
+		System.out.println("The "+cylinders+" cylinder engine roars");
+	}
+}

@@ -1,0 +1,12 @@
+package com.revature.parts;
+
+public class Wheels extends CarPart {
+
+	public int diameter;
+	
+	public void function() {
+		System.out.println("The "+diameter+" inch wheels go round and round");
+		durablility--;
+		status();
+	}
+}

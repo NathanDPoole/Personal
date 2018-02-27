@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+"use strict" //means you have to put var in front of variables
+var a = 10;
+console.log(a);
+
+//document.write('never use document.write'); out-dated
+//alert("pop-up boxes"); //not a good practice, easy to forget
+
+console.log(a);
+
+var x=10; var y=20; //global scope
+function add(){
+	var c = 40; //local scope
+	return(x + y);
+}
+
+console.log(add);
+console.log(add());
+//console.log(c);
+
+
+//function used as a variable
+//functions can be anonymous. notice the f1 function dosnt have a name
+var f1 = function(){
+	return true;
+}
+
+console.log(f1());
+
+var f2 = new Function("x", "y", "return (x*y);");
+console.log(f2(20,30));
+
+//hoisting
+console.log("result of muliplication: ": multiple(30, 40));
+//
+function multiple(d, e){
+	return d*e;
+}

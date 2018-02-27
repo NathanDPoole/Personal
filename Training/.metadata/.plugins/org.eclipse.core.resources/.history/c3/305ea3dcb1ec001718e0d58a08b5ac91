@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+
+//print all properties and methods of an object
+/*
+window.onload = function (){
+	var ele = document.getElementById("formDiv");
+	for (e in ele){
+		console.log(e);
+	}
+
+}
+*/
+
+window.onload = function () {
+	document.getElementById("submintBtn").addEventListner("click", addRows);
+	
+	function addRows(){
+		var id = document.getElementById("eid");
+		//var id = document.getElementById("eid");
+		//var id = document.getElementById("eid");
+
+		
+	}
+}

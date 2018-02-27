@@ -1,0 +1,23 @@
+package com.revature.cukes;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class MercuryToursCukes {
+
+	@Given("^I go to http://newtours\\.demoaut\\.com/$")
+	public void i_go_to_http_newtours_demoaut_com() throws Throwable {
+	}
+
+	@When("^I enter yuvi(\\d+) and yuvi(\\d+)$")
+	public void i_enter_yuvi_and_yuvi(int arg1, int arg2) throws Throwable {
+	}
+
+	@When("^I enter test(\\d+) and test(\\d+)$")
+	public void i_enter_test_and_test(int arg1, int arg2) throws Throwable {
+	}
+	
+	
+
+}

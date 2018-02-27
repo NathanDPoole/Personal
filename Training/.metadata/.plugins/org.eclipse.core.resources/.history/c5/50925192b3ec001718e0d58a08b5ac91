@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+
+//print all properties and methods of an object
+/*
+window.onload = function (){
+	var ele = document.getElementById("formDiv");
+	for (e in ele){
+		console.log(e);
+	}
+
+}
+*/
+
+window.onload = function () {
+	document.getElementById("submintBtn").addEventListener("click", addRows);
+	
+}
+
+function addRows(){
+	var id = document.getElementById("eid").value;
+	var name = document.getElementById("name");
+	var age = document.getElementById("age");
+
+	
+	
+	var tr = document.createElement("tr");
+	var idcol = document.createElement("td");
+	var namecol = document.createElement("td");
+	var agecol = document.createElement("td");
+
+	idcol.textContent = id;
+	namecol.textContent = name;
+	agecol.textContent = age;
+	
+	tr.appendChild(idcol);
+	tr.appendChild(namecol);
+	tr.appendChild(agecol);
+	
+	document.getElementById("mytable").appendChild(tr);
+}

@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+
+var a = 10;
+console.log(a);
+
+//document.write('never use document.write'); outdated
+//alert("popup boxes"); //not a good practice, easy to forget
+
+console.log(a);

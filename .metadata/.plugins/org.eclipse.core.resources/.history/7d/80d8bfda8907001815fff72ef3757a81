@@ -1,0 +1,15 @@
+package com.revature._RestService;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+@Path("hello")
+public class HelloWorld {
+	
+	@GET
+	@Produces()
+	String printMessage() {
+		return "Hello World";
+	}
+}

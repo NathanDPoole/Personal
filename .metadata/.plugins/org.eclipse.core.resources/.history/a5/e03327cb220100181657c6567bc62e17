@@ -1,0 +1,16 @@
+Feature: 
+	As a customer I have mone in my bank account
+	I want to withdraw money
+	So that I can spend it for movies and pop corn
+
+
+Scenario: Title of your scenario
+  Given I have 200 dollars in my account
+  When I try to withdraw 100 from my account
+  Then I should be able to see teh remaining balance of 100 dollars
+  
+Scenario: Eat 5 out of 12
+	Given there are 12 cucumbers
+	When I eat 5 cucumbers
+	Then I should have 7 cucumbers left
+ 

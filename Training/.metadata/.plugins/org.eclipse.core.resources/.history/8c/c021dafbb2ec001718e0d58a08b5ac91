@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+
+//print all properties and methods of an object
+/*
+window.onload = function (){
+	var ele = document.getElementById("formDiv");
+	for (e in ele){
+		console.log(e);
+	}
+
+}
+*/
+
+window.onload = function () {
+	document.getElementById("submintBtn").addEventListner("click", addRows);
+	
+}
+
+function addRows(){
+	var id = document.getElementById("eid");
+	//var name = document.getElementById("name");
+	//var age = document.getElementById("age");
+
+	
+	
+	var tr = document.createElement("tr");
+	var td = document.createElement("td");
+
+	td.textContent = id;
+	
+	tr.appendChild(td);
+	
+	document.getElementById("mytable").appendChild(tr);
+}

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F2C37D8-AE9D-756A-0FE6-0226325DEC42" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="PLAYLIST">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PLAYLIST</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAYLISTID" id="C65BCDC1-EB08-D96A-E863-B540E1F8EBA2">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>PLAYLIST</sourceObjSchema>
+<sourceObjName>PLAYLISTID</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="E88AD434-C26B-A9B5-1427-FAA5665E151A">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>PLAYLIST</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4F948A2-3957-3282-CCD2-0C54869047AC" name="PK_PLAYLIST">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_PLAYLIST</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:20 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C65BCDC1-EB08-D96A-E863-B540E1F8EBA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDB96DC9-4B5E-08A1-1A8B-A3BB04332180" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="PK_PLAYLIST">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_PLAYLIST</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C65BCDC1-EB08-D96A-E863-B540E1F8EBA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

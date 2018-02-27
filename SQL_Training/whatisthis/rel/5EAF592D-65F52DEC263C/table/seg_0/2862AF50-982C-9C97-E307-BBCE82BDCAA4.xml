@@ -1,0 +1,276 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2862AF50-982C-9C97-E307-BBCE82BDCAA4" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="EMPLOYEE">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>EMPLOYEE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEEID" id="D6A0F86A-A6B6-E521-A51A-20FD053E0A56">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>EMPLOYEEID</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="8F03FC4A-4328-0990-7E44-0822ABF2D882">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>LASTNAME</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="74381CDE-11DC-971A-0E6F-FD7B8947EC9D">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>FIRSTNAME</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="74AAD870-8AA3-DFAC-8E06-477A4819AFED">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORTSTO" id="07745324-15CE-4D23-0E54-B93B10B67E76">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>REPORTSTO</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC552CAE-CF3C-1F00-E044-E734161AE0AD" referredColumn="D6A0F86A-A6B6-E521-A51A-20FD053E0A56"/>
+</associations>
+</Column>
+<Column name="BIRTHDATE" id="E8876323-64AD-924B-ACA4-2CA19685D387">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>BIRTHDATE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIREDATE" id="8D1C1BFE-205D-C04E-4DAA-E79312F569AD">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>HIREDATE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="2DEB5BF6-0A7D-306C-ABD2-F29946B19ED1">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="653EC3D7-D90D-AD53-3134-49194D9C10C6">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="9D15FE6C-EC0A-35DC-32B5-152A025A4993">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="46A16E70-B3CB-6027-3174-BA71E4E13B8E">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTALCODE" id="D2D780B0-D8F0-F963-4BBC-41D4A403F819">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>POSTALCODE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="4171841B-AF01-9ABA-09C3-AF9B208753A2">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAX" id="9D6E91AD-E942-272C-FCD0-32C761F7DEFC">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>FAX</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="FFB3F935-D9E1-3290-F6B2-84EACB94F011">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>EMPLOYEE</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE754992-21B7-D4E7-7E60-CEC9A591825A" name="PK_EMPLOYEE">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_EMPLOYEE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:20 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A0F86A-A6B6-E521-A51A-20FD053E0A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="081A17C1-DAA3-C623-E46D-A633B36AE521" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="PK_EMPLOYEE">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_EMPLOYEE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A0F86A-A6B6-E521-A51A-20FD053E0A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB34DAAA-4C5A-4798-9B18-8FB97C581AA6" name="FK_EMPLOYEEREPORTSTO">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:21 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07745324-15CE-4D23-0E54-B93B10B67E76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

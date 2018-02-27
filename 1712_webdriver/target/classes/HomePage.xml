@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <!-- example of how to run a specific group
+  	<groups>
+  		<run>
+  			<include name="iterationName" />
+  		</run>
+  	</groups>	
+  	
+  -->
+  	<classes>
+      <class name="com.revature.pom.TestClass2"/>
+     <!-- <class name="com.revature.testng.HelloWorld"/> you can run multiple test classes by adding them to the xml -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+package com.revature.parts;
+
+public class Wheels extends CarPart {
+
+	
+}

@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C599283-756E-BBD2-5080-53BB7819F827" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="CUSTOMER">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMERID" id="4B2C1D70-5EB9-1055-6458-7F19C19FC84E">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMERID</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="96EF210C-D471-22E7-C5B3-EB24EFF8B729">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>FIRSTNAME</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="ACE61BFE-2495-B119-8B25-D1ED62B1E07F">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>LASTNAME</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY" id="616B1DE4-C0E5-115C-0507-D58749C9C747">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="D21EA80C-E366-B3B5-992B-9DDC01485D69">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="7B325FCE-6D34-8CBE-08D7-001425892EB3">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="2A8C535D-9C06-80A5-F36B-CBB9B9A7048F">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="3B68B2FC-A95E-2B32-5DC8-403D7A215410">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTALCODE" id="82849276-FB24-DE87-4D76-70C9E833CE1D">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>POSTALCODE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="C996FCBD-9599-D200-45C1-A1DB62E52908">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAX" id="0F6A4E21-CE7B-DF1C-F16A-83F05B249EFF">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>FAX</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="AEC32696-DBA4-A25D-BDA6-C1A7A01DA0CF">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPORTREPID" id="12593DBF-800E-D0A7-E25E-166CC2BE21C9">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>SUPPORTREPID</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B3C9D70-3419-56D0-167B-41F1911FE232" referredColumn="D6A0F86A-A6B6-E521-A51A-20FD053E0A56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99A05F22-7604-2E22-3B0D-BFC6EC812726" name="PK_CUSTOMER">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_CUSTOMER</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:20 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B2C1D70-5EB9-1055-6458-7F19C19FC84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AAD744A-B134-E118-D3BC-092EA8B840EC" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="PK_CUSTOMER">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_CUSTOMER</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B2C1D70-5EB9-1055-6458-7F19C19FC84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2330AB30-680A-94FE-4EA9-20CBB809EAD5" name="FK_CUSTOMERSUPPORTREPID">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:21 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12593DBF-800E-D0A7-E25E-166CC2BE21C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

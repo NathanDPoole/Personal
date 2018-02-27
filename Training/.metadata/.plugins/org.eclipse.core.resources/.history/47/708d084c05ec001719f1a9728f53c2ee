@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+"use strict" //means you have to put var in front of variables
+var a = 10;
+console.log(a);
+
+//document.write('never use document.write'); out-dated
+//alert("pop-up boxes"); //not a good practice, easy to forget
+
+console.log(a);
+
+var x=10; var y=20; //global scope
+function add(){
+	var c = 40; //local scope
+	return(x + y);
+}
+
+console.log(add);
+console.log(add());
+//console.log(c);
+
+var f1 = function(){
+	return true;
+}
+
+console.log(f1());

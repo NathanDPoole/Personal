@@ -1,0 +1,92 @@
+/**
+ * 
+ */
+"use strict" //means you have to put var in front of variables
+var a = 10;
+console.log(a);
+
+//document.write('never use document.write'); out-dated
+//alert("pop-up boxes"); //not a good practice, easy to forget
+
+console.log(a);
+
+var x=10; var y=20; //global scope
+function add(){
+	var c = 40; //local scope
+	return(x + y);
+}
+
+console.log(add);
+console.log(add());
+//console.log(c);
+
+
+//function used as a variable
+//functions can be anonymous. notice the f1 function dosn't have a name
+var f1 = function(){
+	return true;
+}
+
+console.log(f1());
+
+var f2 = new Function("x", "y", "return (x*y);");
+console.log(f2(20, 30));
+
+//hoisting
+console.log("result of muliplication: ", multiply(30, 40));
+//call comes before execution
+function multiply(d, e){
+	return d*e;
+}
+
+//self invoking functions
+//the definition is in the call
+(function printMsg(){
+	console.log("this is a message");
+})();
+
+(function (){
+	console.log("anonymous self invoking");
+})();
+
+//ignores extra arguments
+console.log(multiply(10,10));
+console.log(multiply(10,10,20));
+console.log(multiply(10,10,20,30));
+//passes undefined if missing arguments
+console.log(multiply(10));
+
+
+
+function changeValues(g){
+	g += ", How are you?";
+	console.log(g);
+	return g;
+}
+
+var h= changeValues("Tom");
+console.log(h);
+
+//overloading
+function multiply(d, e, i){
+	return d*e*i;
+}
+
+console.log(multiply(10,20, 30));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

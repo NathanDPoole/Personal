@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAB9FEF9-62E3-F022-EA2E-256F25B14A6D" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="ALBUM">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>ALBUM</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:17 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALBUMID" id="12B61D22-C8F1-E609-6B7D-C1FD03A69274">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>ALBUM</sourceObjSchema>
+<sourceObjName>ALBUMID</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="B9490E1F-6929-DF13-FA89-ED794D388247">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>ALBUM</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160 BYTE</dataTypeSize>
+<ownDataTypeParameters>160 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTISTID" id="5EF2F135-AB07-AD39-F84B-C3C4EF92754F">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>ALBUM</sourceObjSchema>
+<sourceObjName>ARTISTID</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43AE7513-451E-4BD8-C9A7-21E98BAC17FD" referredColumn="6C517286-3A8E-24CC-BC18-4466C8BAC19E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57A20ABC-7B50-8319-9949-1AD56259E247" name="PK_ALBUM">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_ALBUM</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12B61D22-C8F1-E609-6B7D-C1FD03A69274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFCA0E11-B102-F1BF-50EF-67A593336189" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="PK_ALBUM">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_ALBUM</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12B61D22-C8F1-E609-6B7D-C1FD03A69274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E8791BC-3C58-3051-5771-C05FA2BEA228" name="FK_ALBUMARTISTID">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:21 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EF2F135-AB07-AD39-F84B-C3C4EF92754F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

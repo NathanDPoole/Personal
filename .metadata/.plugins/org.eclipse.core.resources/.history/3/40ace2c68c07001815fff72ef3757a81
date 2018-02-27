@@ -1,0 +1,32 @@
+package com.revature.repository;
+
+import java.util.List;
+
+import com.revature.model.Activity;
+
+public class ActivityRepoImplementation implements ActivityRepo, ActivityRepo {
+
+	/* (non-Javadoc)
+	 * @see com.revature.repository.ActivityRepo#findAllActivities()
+	 */
+	@Override
+	public List<Activity> findAllActivities(){
+		return null;
+	}
+	
+	/* (non-Javadoc)
+	 * @see com.revature.repository.ActivityRepo#createActivity(java.lang.String)
+	 */
+	@Override
+	public String createActivity(String activityid){
+		return null;
+	}
+	
+	/* (non-Javadoc)
+	 * @see com.revature.repository.ActivityRepo#findActivity(java.lang.String)
+	 */
+	@Override
+	public Activity findActivity(String activityid) {
+		return null;
+	}
+}

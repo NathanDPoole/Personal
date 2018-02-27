@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+
+window.onload = function (){
+	
+	//create object for add button
+	var addNumbers = document.getElementById("addBtn");
+	
+	//add even handler or listeners for this button on a click
+	addNumbers.addEventListener("click", )
+	
+	fun
+	var num1 = document.getElementById("num1");
+	var num2 = document.getElementById("num2");
+	document.getElementById("results").innerHTML = ( num1 + num2 );
+}

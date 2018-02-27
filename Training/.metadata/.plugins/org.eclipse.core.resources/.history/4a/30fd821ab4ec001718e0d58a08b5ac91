@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+<title>Dynamic Table</title>
+</head>
+<body>
+
+	<header>
+		<div>
+			<p>Dynamic Table</p>
+			<div id="formDiv">
+				<form>
+					<input id="eid" type="text" placeholder="Enter Employee id" />
+					<input id="name" type="text" placeholder="Enter Employee name" />
+					<input id="age" type="text" placeholder="Enter Employee age" />
+					<input id="submintBtn" type="button" value="Submint" />
+				</form>
+			</div>
+		</div>	
+	</header>
+	
+	<section>
+		<div>
+			<table border="">
+				<tbody>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Age</th>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	
+	<script type="text/javascript" src="../js/dynamicTable.js"></script>
+</body>
+</html>

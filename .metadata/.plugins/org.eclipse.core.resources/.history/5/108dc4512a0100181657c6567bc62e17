@@ -1,0 +1,29 @@
+package com.revature.cukes;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class MercuryTours {
+
+	@Given("^the yuvi(\\d+) and yuvi(\\d+) are valid$")
+	public void the_yuvi_and_yuvi_are_valid(int arg1, int arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+
+	@When("^I go to http://newtours\\.demoaut\\.com/ and click the login button$")
+	public void i_go_to_http_newtours_demoaut_com_and_click_the_login_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+
+	@Then("^I should see the home page$")
+	public void i_should_see_the_home_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+
+	@Given("^the test(\\d+) and test(\\d+) are valid$")
+	public void the_test_and_test_are_valid(int arg1, int arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
+
+}

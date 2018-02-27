@@ -1,0 +1,27 @@
+package com.revature;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class HelloWorld {
+	
+	@Given("^I have (\\d+) dollars in my account$")
+	public void i_have_dollars_in_my_account(int arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^I try to withdraw (\\d+) from my account$")
+	public void i_try_to_withdraw_from_my_account(int arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I should be able to see teh remaining balance of (\\d+) dollars$")
+	public void i_should_be_able_to_see_teh_remaining_balance_of_dollars(int arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+}

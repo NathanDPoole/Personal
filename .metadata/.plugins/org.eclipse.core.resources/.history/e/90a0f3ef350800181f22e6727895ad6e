@@ -1,0 +1,17 @@
+package com.revature.parts;
+
+public class CarPart implements partFunction {
+
+	int durablility = 100;
+	String partName;
+	
+	public void status() {
+		System.out.println("The "+partName+" durability is: "+durablility);
+	}
+
+	@Override
+	public void function() {
+		System.out.println("Part's function is generic");
+		durablility--;
+	}
+}

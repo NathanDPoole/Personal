@@ -1,0 +1,20 @@
+package com.revature.repository;
+
+import java.util.List;
+
+import com.revature.model.Activity;
+
+public class ActivityRepoImplementation implements ActivityRepo {
+
+	List<Activity> findAllActivities(){
+		return null;
+	}
+	
+	String createActivity(String activityid){
+		return null;
+	}
+	
+	Activity findActivity(String activityid) {
+		return null;
+	}
+}

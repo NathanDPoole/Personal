@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+
+window.onload = function (){
+	
+	document.getElementById("submintButton").addEventListener("click", nflPlayers)
+	
+}
+
+function nflPlayers(){
+	
+	var xhr = new XMLHttpRequest();
+	xhr.onreadysetchange = function (){
+		
+		console.log(xhr.readystate);
+		console.log(xhr.status);
+		console.log(xhr.responseText);
+	}
+	
+	xhr.send("GET", "https://api.myjson.com/bins/9cb8b")
+	xhr.open();
+
+}

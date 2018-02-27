@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+var d = document;
+window.onload = function (){
+	
+	//create object for add button
+	var addNumbers = document.getElementById("addBtn");
+	
+	//add even handler or listeners for this button on a click
+	addNumbers.addEventListener("click", function (){
+		var num1 = parseInt(d.getElementById("num1").value);
+		var num2 = parseInt(d.getElementById("num2").value);
+		d.getElementById("results").innerHTML = ( num1 + num2 );
+	});
+	
+}

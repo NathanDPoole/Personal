@@ -1,0 +1,16 @@
+Feature:
+	As a customer with valid credentials
+	If I try to log into the application
+	I should be allowed to signin
+
+Scenario Outline:
+	Given the <username> and <password> are valid
+	When I go to <url> and click the login button
+	Then I should see the home page
+	
+	Examples:
+	| username 	| password 	| url |
+	| yuvi1 		| yuvi1 		| url |
+	| test1 		| test1 		| url |
+
+	

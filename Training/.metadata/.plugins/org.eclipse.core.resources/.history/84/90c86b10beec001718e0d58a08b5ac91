@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dynamic Table</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+</head>
+<body>
+
+	<header>
+		<div>
+			<div class="page-header"><h1>Dynamic Table</h1></div>
+			<a href="DOMExample.html">DOM Examples</a>
+			<a href="Bubbling.html">Bubbling Examples</a>
+			
+			<div id="formDiv" class="well">
+				<form>
+				<div class="form-group">
+					<input id="eid" type="text" placeholder="Enter Employee id" />
+					<input id="name" type="text" placeholder="Enter Employee name" />
+					<input id="age" type="text" placeholder="Enter Employee age" />
+					<input id="submitBtn" type="button" value="Submit" class="btn btn-primary"/>
+					<input id="clearBtn" type="button" value="Clear" class="btn btn-primary"/>
+				</div>
+				</form>
+			</div>
+		</div>	
+	</header>
+	
+	<section>
+		<div>
+			<table class="table table-bordered table-hover table-striped">
+				<tbody id="mytable">
+					<th>ID</th>
+					<th>Name</th>
+					<th>Age</th>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	
+	<script type="text/javascript" src="../js/dynamicTable.js"></script>
+</body>
+</html>

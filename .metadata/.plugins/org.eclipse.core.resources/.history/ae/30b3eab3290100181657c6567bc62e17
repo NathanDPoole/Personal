@@ -1,0 +1,9 @@
+Feature:
+	As a customer with valid credentials
+	If I try to log into the application
+	I should be allowed to signin
+
+Scenario Outline:
+	Given the <username> and <password> are valid
+	When I click the signin button
+	Then I should see the home page

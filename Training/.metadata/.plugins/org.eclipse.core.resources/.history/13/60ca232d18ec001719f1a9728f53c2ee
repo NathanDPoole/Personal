@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+var u = document.getElementByID("user");
+var p = document.getElementByID("passwor");
+
+var para = document.getElementByID("newParagraph");
+
+function changeParagraph(){
+	para = "<p> user"+ u + "is logged </p>";
+}

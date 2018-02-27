@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E94F0C2-4806-11F2-CAE1-710B4502040A" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="GENRE">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>GENRE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GENREID" id="6C0EB76A-9CE1-7799-13E5-6CCD7C53312E">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>GENRE</sourceObjSchema>
+<sourceObjName>GENREID</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="09D09979-D21F-0655-7B08-A8FE510117C9">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>GENRE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A46EC2FC-C74F-1798-8301-7CD0AB779699" name="PK_GENRE">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_GENRE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:20 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C0EB76A-9CE1-7799-13E5-6CCD7C53312E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8E28393-1C9B-54BE-B629-93D5C10B3BAF" schemaObject="042EDD03-EA0E-FE27-5A97-9FEC7A6C4486" name="PK_GENRE">
+<sourceConnName>Chinook</sourceConnName>
+<sourceObjSchema>CHINOOK</sourceObjSchema>
+<sourceObjName>PK_GENRE</sourceObjName>
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C0EB76A-9CE1-7799-13E5-6CCD7C53312E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

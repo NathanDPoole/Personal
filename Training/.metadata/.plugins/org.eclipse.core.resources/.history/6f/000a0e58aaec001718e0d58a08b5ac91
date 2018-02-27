@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div onclick="alert('click on div tag')">
+		<ul onclick="alert('click on ul tag')">
+			<li onclick="alert('click on li1 tag')">
+				<p onclick="alert('click on p1 tag')">The is my first Paragraph</p>
+			</li>
+			<li onclick="alert('click on li2 tag')">
+				<p onclick="alert('click on p2 tag')">The is my first Paragraph</p>
+			</li>
+			<li onclick="alert('click on li3 tag')">
+				<p onclick="alert('click on p3 tag')">The is my first Paragraph</p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

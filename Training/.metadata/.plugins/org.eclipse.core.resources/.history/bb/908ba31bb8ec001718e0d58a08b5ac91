@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+
+//simple event listener example
+var d = document;
+var c = console;
+window.onload = function (){
+	
+	//create object for add button
+	var addNumbers = document.getElementById("addBtn");
+	
+	//add even handler or listeners for this button on a click
+	addNumbers.addEventListener("click", function (){
+		var num1 = parseInt(d.getElementById("num1").value);
+		var num2 = parseInt(d.getElementById("num2").value);
+		d.getElementById("results").value = ( num1 + num2 );
+	});
+	
+}
+
+
+//simple callback example
+var c1 = function (msg){
+	c.log(msg);
+}
+
+function run(c2){
+	c2("running callback function");
+}
+
+c1("this is not call back");
+run(c1);

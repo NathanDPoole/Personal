@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dynamic Table</title>
+</head>
+<body>
+
+	<header>
+		<div>
+			<p>Dynamic Table</p>
+			<div>
+				<form>
+					<input type="text" placeholder="Enter Employee id" />
+					<input type="text" placeholder="Enter Employee name" />
+					<input type="text" placeholder="Enter Employee age" />
+					<input type="submit" value="Submint" />
+				</form>
+			</div>
+		</div>	
+	</header>
+	
+	<section>
+	
+	</section>
+	
+</body>
+</html>

@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+window.onload = function (){
+	var ele = document.getElemtnById("formDiv");
+	for (e in ele){
+		console.log(e);
+	}
+
+}

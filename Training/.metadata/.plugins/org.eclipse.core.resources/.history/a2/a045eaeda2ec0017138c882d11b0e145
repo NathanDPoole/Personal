@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+var u = document.getElementByID("user");
+var p = document.getElementByID("pass");
+console.log(u);
+
+var para = document.getElementByID("newParagraph");
+
+function changeParagraph(){
+	para.innerHTML = "<p> user"+ u + "is logged </p>";
+	console.log("value - u & p", u+ " "+p);
+}
+
+function mouseHoverDOM(){
+	document.getElementByID("ModifiedbyJS").innerHTML = "Did it Work????";
+}
+
+function mouseOutDOM(){
+	document.getElementByID("ModifiedbyJS").innerHTML = "What was the original";
+}

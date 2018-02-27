@@ -1,0 +1,14 @@
+<html>
+<!-- bad practice to include scripts at top of page -->
+<script type="text/javascript" src="../js/HelloWorld.js"></script>
+<script type="text/javascript" src="../js/domExample.js"></script>
+<body>
+<h2>Hello World!</h2>
+
+	<div>
+		<input type="text" id="user">
+		<input type="text" id="pass">
+		<input type="submit" id="submint">
+	</div>
+</body>
+</html>

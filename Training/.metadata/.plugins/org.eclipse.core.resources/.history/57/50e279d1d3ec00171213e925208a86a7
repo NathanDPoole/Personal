@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<input id="submitButton" type="button" value="Click this button" />
+	</div>
+	
+	<script type="text/javascript" src="../js/AJAXExample.js" ></script>
+</body>
+</html>

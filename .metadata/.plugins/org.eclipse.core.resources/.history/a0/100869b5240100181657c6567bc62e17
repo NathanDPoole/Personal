@@ -1,0 +1,33 @@
+Feature: 
+	As a customer I have mone in my bank account
+	I want to withdraw money
+	So that I can spend it for movies and pop corn
+
+
+Scenario: Title of your scenario
+  Given I have 200 dollars in my account
+  When I try to withdraw 100 from my account
+  Then I should be able to see teh remaining balance of 100 dollars
+ 
+#parameterizing using numbers
+Scenario: Eat 5 out of 12
+	Given there are 12 cucumbers
+	When I eat 5 cucumbers
+	Then I should have 7 cucumbers left
+	
+#Parameterizing using strings
+Scenario: Tom posing a question in form
+	Given I loged in as "Tom"
+	When I try to post a Question about "TestNG and Cucumber"
+	Then I should see my question posted in the form with "Conformation Message"
+ 
+Scenario Outline: 
+	Given there are <cukes_start> cucumbers
+	When I eat <cukes_eat> cucumbers
+	Then I should have <cukes_remaining> cucumbers left
+	
+	Examples:
+		| cukes_start | cukes_eat | cukes_remaining |
+		| 12 					| 5 				| 7 							|
+		| 20 					| 12 				| 8 							|
+		| 200 				| 150 			| 50 							|

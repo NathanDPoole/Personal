@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:1712_dynamicWeb_2.5" serverId="Local TCat"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Revature_Employee_Reimbursment" serverId="Local TCat"/>
+  <module moduleId="org.eclipse.jst.jee.server:1712_dynamicWeb_3" serverId="Local TCat"/>
+  <module moduleId="org.eclipse.jst.jee.server:1712_RestService" serverId="Local TCat at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:1712_maven_web" serverId="Local TCat"/>
+  <module moduleId="org.eclipse.jst.jee.server:1712_FrontController" serverId="Local TCat"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:JavaScriptEx" serverId="Local TCat"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:ServletExamples" serverId="Local TCat"/>
+</modules>

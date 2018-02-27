@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PLAYLISTTRACK" directorySegmentName="seg_0" id="5D8B4AE7-2444-E6CA-99B5-4499B3C7C3CD">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:18 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<schemaObject>042EDD03-EA0E-FE27-5A97-9FEC7A6C4486</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0042ECDE-43D9-131B-C0EA-8483E44D5E20</segment>
+<tableSpace>68E923BB-F899-7076-0089-4028A676DC83</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TRACKID" id="46011DFC-789E-5C78-5B86-00ABEC9E558B">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAYLISTID" id="525E0C81-6551-10E1-8568-416FA4FF9D66">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PLAYLISTTRACK" id="D0F14B4E-1F53-4F79-B8B8-B9486BF5976A">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:19 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<schemaObject>042EDD03-EA0E-FE27-5A97-9FEC7A6C4486</schemaObject>
+<segment>EFE85F51-BA4B-3817-A522-F07C31F03031</segment>
+<tableSpace>68E923BB-F899-7076-0089-4028A676DC83</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PLAYLISTTRACKPLAYLISTID" id="242C8B7C-D8BB-E201-639B-C7F437950760">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:21 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PLAYLISTTRACKTRACKID" id="B2FD34E2-A76D-845F-D704-38E810EDFAA2">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:21 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PLAYLISTTRACK" id="60F1A1C9-E985-7CC6-BA09-6C349CDAC92B">
+<createdBy>Nathan</createdBy>
+<createdTime>2017-12-23 18:37:20 UTC</createdTime>
+<ownerDesignName>whatisthis</ownerDesignName>
+<segment>EFE85F51-BA4B-3817-A522-F07C31F03031</segment>
+<tableSpace>68E923BB-F899-7076-0089-4028A676DC83</tableSpace>
+<existingIndex>D0F14B4E-1F53-4F79-B8B8-B9486BF5976A</existingIndex>
+<indexSegment>EFE85F51-BA4B-3817-A522-F07C31F03031</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

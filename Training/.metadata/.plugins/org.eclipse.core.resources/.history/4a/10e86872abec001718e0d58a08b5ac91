@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div>
+		<div>
+			<div>
+				<input id="num1" type="number" min="-10" max="10" value = "0"/>
+				<input id="num2" type="number" min="-10" max="10" value = "0"/>
+				<div>
+					<input id="addBtn" type="button" value="Add"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

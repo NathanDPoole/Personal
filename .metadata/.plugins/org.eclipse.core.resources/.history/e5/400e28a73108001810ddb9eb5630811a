@@ -1,0 +1,10 @@
+package com.revature.parts;
+
+public class Fueltank extends CarPart {
+
+	public double fuelLevel = 8;
+	
+	public void function() {
+		System.out.println("The fuel tank has "+fuelLevel+" gallons remaning");
+	}
+}
